@@ -18,3 +18,18 @@ color_scheme = {
 
 def generate_config():
     return {'showLink': False, 'displayModeBar': False, 'showAxisRangeEntryBoxes': True}
+
+
+def convert_quotemedia_to_yformat(ticker_data):
+    # remove a column
+    ticker_data.drop(columns=['Unnamed: 0'],inplace=True)
+
+    # Set 'date' as the index
+    ticker_data.set_index('date', inplace=True)
+    # Pivot the DataFrame
+    ticker_data = ticker_data.pivot_table(index=ticker_data.index, columns='ticker')
+
+    # Flatten the MultiIndex columns
+    ticker_data.columns = pd.MultiIndex.from_product([ticker_data.columns.levels[1], ticker_data.columns.levels[0]])
+
+    return ticker_data
