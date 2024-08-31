@@ -122,7 +122,7 @@ def print_dataframe(df, n_rows=10, n_columns=3):
 
 def plot_weights(weights, title):
     config = generate_config()
-    graph_path = 'graphs/{}.html'.format(_sanatize_string(title))
+    graph_path = '../graphs/{}.html'.format(_sanatize_string(title))
     trace = _generate_heatmap_trace(weights.sort_index(axis=1, ascending=False), 'Date', 'Ticker', 'Weight', 0.0, 0.2)
     layout = go.Layout(
         title=title,
@@ -152,7 +152,7 @@ def plot_returns(returns, title):
 
 def plot_covariance_returns_correlation(correlation, title):
     config = generate_config()
-    graph_path = 'graphs/{}.html'.format(_sanatize_string(title))
+    graph_path = '../graphs/{}.html'.format(_sanatize_string(title))
     data = []
 
     dendro_top = ff.create_dendrogram(correlation, orientation='bottom')
@@ -206,10 +206,10 @@ def plot_covariance_returns_correlation(correlation, title):
     figure['layout']['yaxis'].update({'domain': [0, .85]})
     figure['layout']['yaxis'].update(xaxis1_layout)
 
-    figure['layout']['xaxis2'].update({'domain': [0, .15]})
-    figure['layout']['xaxis2'].update(xaxis2_layout)
-    figure['layout']['yaxis2'].update({'domain': [.825, .975]})
-    figure['layout']['yaxis2'].update(xaxis2_layout)
+    figure['layout']['xaxis'].update({'domain': [0, .15]})
+    figure['layout']['xaxis'].update(xaxis2_layout)
+    figure['layout']['yaxis'].update({'domain': [.825, .975]})
+    figure['layout']['yaxis'].update(xaxis2_layout)
 
     offline_py.plot(figure, config=config, filename=graph_path, auto_open=False)
     display(HTML('The graph for {} is too large. You can view it <a href="{}" target="_blank">here</a>.'
