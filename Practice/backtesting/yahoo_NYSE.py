@@ -179,7 +179,12 @@ def yahoo_NYSE_bundle(
         # are all equities and thus can use the NYSE calendar.
         metadata["exchange"] = "NYSE"
 
-        asset_db_writer.write(equities=metadata)
+        exchanges = pd.DataFrame(
+        data=[["NYSE", "NYSE", "US"]],
+        columns=["exchange", "canonical_name", "country_code"],
+        )
+
+        asset_db_writer.write(equities=metadata,exchanges=exchanges)
 
         divs_splits["divs"]["sid"] = divs_splits["divs"]["sid"].astype(int)
         divs_splits["splits"]["sid"] = divs_splits["splits"]["sid"].astype(int)
