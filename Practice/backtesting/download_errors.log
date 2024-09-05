@@ -152,3 +152,1124 @@ ERROR:yfinance:['NFLX']: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host=
 ERROR:yfinance:
 1 Failed download:
 ERROR:yfinance:['NFX']: ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='query2.finance.yahoo.com', port=443): Read timed out. (read timeout=10)"))
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['AGN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ALXN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ANTM']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['APC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ARNC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ATVI']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BBT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BCR']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BLL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CA']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CBG']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CBS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CELG']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CERN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CHK']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['COG']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CTL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CTXS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CXO']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISCA']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISCK']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISH']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DPS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DRE']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ETFC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FB']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FBHS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FISV']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FLIR']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FOX']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FOXA']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['GGP']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HCN']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HCP']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HRS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['INFO']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['JEC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['KORS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['KSU']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LB']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LLL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LUK']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LVLT']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['MON']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['MYL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['NBL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['NLSN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PBCT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PKI']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PX']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PXD']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RE']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RHT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RTN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['SPLS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['STI']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['SYMC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TIF']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TMK']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TSS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['UTX']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['VAR']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['VIAB']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['WLTW']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['WYN']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XEC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XLNX']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['AGN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ALXN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ANTM']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['APC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ARNC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ATVI']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BBT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BCR']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BLL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CA']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CBG']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CBS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CELG']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CERN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CHK']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['COG']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CTL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CTXS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CXO']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISCA']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISCK']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISH']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DPS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DRE']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ETFC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FB']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FBHS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FISV']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FLIR']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FOX']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FOXA']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['GGP']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HCN']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HCP']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HRS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['INFO']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['JEC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['KORS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['KSU']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LB']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LLL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LUK']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LVLT']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['MON']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['MYL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['NBL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['NLSN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PBCT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PKI']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PX']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PXD']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RE']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RHT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RTN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['SPLS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['STI']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372636800, endDate = 1498780800")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['SYMC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TIF']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TMK']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TSS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['UTX']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['VAR']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['VIAB']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['WLTW']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['WYN']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00+00:00 -> 2017-06-30 00:00:00+00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XEC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XLNX']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:root:Error processing A: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing AAL: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing AAP: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing AAPL: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing ABBV: 'DataFrame' object has no attribute 'shap'
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:root:Error processing ABT: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing ACN: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing ADBE: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing ADI: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing ADM: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing ADP: 'DataFrame' object has no attribute 'shap'
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:root:Error processing ADSK: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing AEE: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing AEP: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing AES: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing AET: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing AFL: 'DataFrame' object has no attribute 'shap'
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['AGN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:root:Error processing AIG: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing AIV: 'DataFrame' object has no attribute 'shap'
+ERROR:root:Error processing AIZ: 'DataFrame' object has no attribute 'shap'
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['AGN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['AGN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['AGN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ALXN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['AGN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ALXN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ANTM']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['APC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ARNC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ATVI']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BBT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BCR']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BLL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CA']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CBG']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CBS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CELG']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CERN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CHK']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['COG']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CTL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CTXS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CXO']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISCA']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISCK']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISH']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DPS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DRE']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ETFC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FB']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FBHS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FISV']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FLIR']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FOX']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FOXA']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['GGP']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HCN']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HCP']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HRS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['INFO']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['JEC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['KORS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['KSU']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LB']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LLL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LUK']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LVLT']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['MON']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['MYL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['NBL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['NLSN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PBCT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PKI']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PX']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PXD']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RE']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RHT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RTN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['SPLS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['STI']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['SYMC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TIF']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TMK']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TSS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['UTX']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['VAR']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['VIAB']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['WLTW']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XEC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XLNX']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['AGN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ALXN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ANTM']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['APC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ARNC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ATVI']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BBT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BCR']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BLL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CA']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CBG']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CBS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CELG']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CERN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CHK']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['COG']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CTL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CTXS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CXO']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISCA']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISCK']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISH']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DPS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DRE']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ETFC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FB']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FBHS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FISV']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FLIR']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FOX']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FOXA']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['GGP']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HCN']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HCP']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HRS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['INFO']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['JEC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['KORS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['KSU']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LB']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LLL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LUK']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LVLT']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['MON']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['MYL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['NBL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['NLSN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PBCT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PKI']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PX']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PXD']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RE']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RHT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RTN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['SPLS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['STI']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['SYMC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TIF']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TMK']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TSS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['UTX']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['VAR']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['VIAB']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['WLTW']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['WYN']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XEC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XLNX']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ABC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ADS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['AGN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ALXN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ANTM']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['APC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ARNC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ATVI']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BBT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BCR']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['BLL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CA']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CBG']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CBS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CELG']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CERN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CHK']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['COG']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CTL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CTXS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['CXO']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISCA']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISCK']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DISH']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DPS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['DRE']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['ETFC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FB']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FBHS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FISV']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FLIR']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FOX']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['FOXA']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['GGP']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HCN']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HCP']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['HRS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['INFO']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['JEC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['KORS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['KSU']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LB']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LLL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LUK']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['LVLT']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['MON']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['MYL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['NBL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['NLSN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PBCT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PKI']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PX']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['PXD']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RE']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RHT']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['RTN']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['SPLS']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['STI']: YFChartError("%ticker%: Data doesn't exist for startDate = 1372651200, endDate = 1498795200")
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['SYMC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TIF']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TMK']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['TSS']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['UTX']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['VAR']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['VIAB']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['WLTW']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['WYN']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2013-07-01 00:00:00 -> 2017-06-30 00:00:00)')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XEC']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XL']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')
+ERROR:yfinance:
+1 Failed download:
+ERROR:yfinance:['XLNX']: YFTzMissingError('$%ticker%: possibly delisted; No timezone found')

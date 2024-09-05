@@ -198,7 +198,10 @@ def _pricing_iter(csvdir, symbols, metadata,sessions, divs_splits, show_progress
         # NOTE: if there are duplicates it will arbitrarily pick the latest found
         fnames = {f.name.split(".")[0]: f.name for f in files if f.is_file()}
 
+        
         for sid, symbol in enumerate(it):
+
+            print(f"\n{symbol}\n")
             logger.debug(f"{symbol}: sid {sid}")
             fname = fnames.get(symbol, None)
 
@@ -214,6 +217,8 @@ def _pricing_iter(csvdir, symbols, metadata,sessions, divs_splits, show_progress
 
             start_date = dfr.index[0]
             end_date = dfr.index[-1]
+
+            
 
             # The auto_close date is the day after the last trade.
             ac_date = end_date + pd.Timedelta(days=1)
