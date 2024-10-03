@@ -1,3 +1,5 @@
+import pandas as pd 
+
 color_scheme = {
     'index': '#B6B2CF',
     'etf': '#2D3ECF',
