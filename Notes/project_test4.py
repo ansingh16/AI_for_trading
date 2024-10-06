@@ -88,6 +88,7 @@ def test_factor_betas(fn):
     n_components = 3
     dates = generate_random_dates(4)
     assets = get_assets(3)
+    assets = [asset.sid for asset in assets]
 
     pca = PCA(n_components)
     pca.fit(pd.DataFrame(
