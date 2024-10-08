@@ -15,7 +15,7 @@ class PricingLoader(object):
     def __init__(self, bundle_data):
         self.loader = USEquityPricingLoader(
             bundle_data.equity_daily_bar_reader,
-            bundle_data.adjustment_reader)
+            bundle_data.adjustment_reader,fx_reader=None)
 
     def get_loader(self, column):
         if column not in USEquityPricing.columns:
@@ -44,7 +44,7 @@ class Sector(Classifier):
         asset_finder = bundle_data.asset_finder
 
         # Load the CSV with stock symbols and sector IDs
-        self.sector_data = pd.read_csv('../../Data/sectors.csv').set_index('ticker')['sector'].to_dict()
+        self.sector_data = pd.read_csv('../Data/sectors.csv').set_index('ticker')['sector'].to_dict()
 
        # Create a reverse mapping from SIDs to symbols
         self.symbol_to_sector = self.sector_data
@@ -72,7 +72,6 @@ def build_pipeline_engine(bundle_data, trading_calendar):
 
     engine = SimplePipelineEngine(
         get_loader=pricing_loader.get_loader,
-        calendar=trading_calendar.all_sessions,
         asset_finder=bundle_data.asset_finder)
 
     return engine

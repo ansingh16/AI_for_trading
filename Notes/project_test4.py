@@ -12,6 +12,7 @@ from zipline.utils.calendar_utils import get_calendar
 from zipline.data.bundles import register, yahoo_NYSE
 from .  import project4_helper as project_helper
 from .tests import assert_output, project_test, generate_random_dates, assert_structure, does_data_match
+from zipline.pipeline.domain import US_EQUITIES
 
 
 def load_bundle(bundle_name):
@@ -257,8 +258,8 @@ def test_predict_portfolio_risk(fn):
 @project_test
 def test_mean_reversion_5day_sector_neutral(fn):
     column_name = 'Mean_Reversion_5Day_Sector_Neutral'
-    start_date_str = '2015-01-05'
-    end_date_str = '2015-01-07'
+    start_date_str = '2015-01-06'
+    end_date_str = '2015-01-08'
 
     # Build engine
     trading_calendar = get_calendar('NYSE')
@@ -269,12 +270,12 @@ def test_mean_reversion_5day_sector_neutral(fn):
     universe_window_length = 2
     universe_asset_count = 4
     universe = AverageDollarVolume(window_length=universe_window_length).top(universe_asset_count)
-    pipeline = Pipeline(screen=universe)
+    pipeline = Pipeline(screen=universe,domain=US_EQUITIES)
 
     run_pipeline_args = {
         'pipeline': pipeline,
-        'start_date': pd.Timestamp(start_date_str, tz='utc'),
-        'end_date': pd.Timestamp(end_date_str, tz='utc')}
+        'start_date':  start_date_str ,
+        'end_date': end_date_str}
     fn_inputs = {
         'window_length': 3,
         'universe': universe,
@@ -308,8 +309,8 @@ def test_mean_reversion_5day_sector_neutral(fn):
 @project_test
 def test_mean_reversion_5day_sector_neutral_smoothed(fn):
     column_name = 'Mean_Reversion_5Day_Sector_Neutral_Smoothed'
-    start_date_str = '2015-01-05'
-    end_date_str = '2015-01-07'
+    start_date_str = '2015-01-06'
+    end_date_str = '2015-01-08'
 
     # Build engine
     trading_calendar = get_calendar('NYSE')
@@ -320,12 +321,12 @@ def test_mean_reversion_5day_sector_neutral_smoothed(fn):
     universe_window_length = 2
     universe_asset_count = 4
     universe = AverageDollarVolume(window_length=universe_window_length).top(universe_asset_count)
-    pipeline = Pipeline(screen=universe)
+    pipeline = Pipeline(screen=universe,domain=US_EQUITIES)
 
     run_pipeline_args = {
         'pipeline': pipeline,
-        'start_date': pd.Timestamp(start_date_str, tz='utc'),
-        'end_date': pd.Timestamp(end_date_str, tz='utc')}
+        'start_date': start_date_str,
+        'end_date': end_date_str}
     fn_inputs = {
         'window_length': 3,
         'universe': universe,
