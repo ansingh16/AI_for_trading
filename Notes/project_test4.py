@@ -9,29 +9,31 @@ from zipline.data import bundles
 from zipline.pipeline import Pipeline
 from zipline.pipeline.factors import AverageDollarVolume
 from zipline.utils.calendar_utils import get_calendar
-from zipline.data.bundles import register, yahoo_NYSE
-from .  import project4_helper as project_helper
-from .tests import assert_output, project_test, generate_random_dates, assert_structure, does_data_match
-from zipline.pipeline.domain import US_EQUITIES
+from zipline.data.bundles import register, yahoo_NYSE, csvdir
+
+import sys 
+import os
+
+# Add the parent directory to the sys.path
+sys.path.append(os.path.join(os.path.dirname('Notes'), '..'))
+
+from Notes import project_test4, project4_helper
+
+from Notes.tests import assert_output, project_test, generate_random_dates, assert_structure, does_data_match
 
 
-def load_bundle(bundle_name):
-
+def get_assets(ticker_count):
     register(
-        bundle_name,
+        'yahoo_NYSE',
         yahoo_NYSE.yahoo_NYSE(
             tframes=["daily"],
             csvdir="/home/ankit/AI_for_trading/Data/data/eod-quotemedia/"
+            )
         )
-    )
 
-    bundle = bundles.load(bundle_name)
+    bundle = bundles.load('yahoo_NYSE')
 
-    return bundle
-
-def get_assets(ticker_count):
-
-    bundle = load_bundle('yahoo_NYSE')
+    
     return bundle.asset_finder.retrieve_all(bundle.asset_finder.sids[:ticker_count])
 
 
@@ -89,7 +91,6 @@ def test_factor_betas(fn):
     n_components = 3
     dates = generate_random_dates(4)
     assets = get_assets(3)
-    assets = [asset.sid for asset in assets]
 
     pca = PCA(n_components)
     pca.fit(pd.DataFrame(
@@ -258,24 +259,24 @@ def test_predict_portfolio_risk(fn):
 @project_test
 def test_mean_reversion_5day_sector_neutral(fn):
     column_name = 'Mean_Reversion_5Day_Sector_Neutral'
-    start_date_str = '2015-01-06'
-    end_date_str = '2015-01-08'
+    start_date_str = '2015-01-05'
+    end_date_str = '2015-01-07'
 
     # Build engine
     trading_calendar = get_calendar('NYSE')
-    bundle_data = load_bundle('yahoo_NYSE')
+    bundle_data = bundles.load(project_helper.EOD_BUNDLE_NAME)
     engine = project_helper.build_pipeline_engine(bundle_data, trading_calendar)
 
     # Build pipeline
     universe_window_length = 2
     universe_asset_count = 4
     universe = AverageDollarVolume(window_length=universe_window_length).top(universe_asset_count)
-    pipeline = Pipeline(screen=universe,domain=US_EQUITIES)
+    pipeline = Pipeline(screen=universe)
 
     run_pipeline_args = {
         'pipeline': pipeline,
-        'start_date':  start_date_str ,
-        'end_date': end_date_str}
+        'start_date': pd.Timestamp(start_date_str, tz='utc'),
+        'end_date': pd.Timestamp(end_date_str, tz='utc')}
     fn_inputs = {
         'window_length': 3,
         'universe': universe,
@@ -309,24 +310,24 @@ def test_mean_reversion_5day_sector_neutral(fn):
 @project_test
 def test_mean_reversion_5day_sector_neutral_smoothed(fn):
     column_name = 'Mean_Reversion_5Day_Sector_Neutral_Smoothed'
-    start_date_str = '2015-01-06'
-    end_date_str = '2015-01-08'
+    start_date_str = '2015-01-05'
+    end_date_str = '2015-01-07'
 
     # Build engine
     trading_calendar = get_calendar('NYSE')
-    bundle_data =load_bundle('yahoo_NYSE')
+    bundle_data = bundles.load(project_helper.EOD_BUNDLE_NAME)
     engine = project_helper.build_pipeline_engine(bundle_data, trading_calendar)
 
     # Build pipeline
     universe_window_length = 2
     universe_asset_count = 4
     universe = AverageDollarVolume(window_length=universe_window_length).top(universe_asset_count)
-    pipeline = Pipeline(screen=universe,domain=US_EQUITIES)
+    pipeline = Pipeline(screen=universe)
 
     run_pipeline_args = {
         'pipeline': pipeline,
-        'start_date': start_date_str,
-        'end_date': end_date_str}
+        'start_date': pd.Timestamp(start_date_str, tz='utc'),
+        'end_date': pd.Timestamp(end_date_str, tz='utc')}
     fn_inputs = {
         'window_length': 3,
         'universe': universe,
@@ -397,7 +398,7 @@ def test_optimal_holdings_get_obj(cl):
         constaints = [sum(weights) == 0.0, sum(cvx.abs(weights)) <= 1.0]
         obj = optimal_holdings._get_obj(weights, alpha_vector)
         prob = cvx.Problem(obj, constaints)
-        prob.solve(max_iters=500)
+        prob.solve()
 
         return np.asarray(weights.value).flatten()
 
@@ -432,7 +433,7 @@ def test_optimal_holdings_get_constraints(cl):
         constaints = optimal_holdings._get_constraints(weights, factor_betas, risk)
         obj = cvx.Maximize([0, 1, 5, -1] * weights)
         prob = cvx.Problem(obj, constaints)
-        prob.solve(max_iters=500)
+        prob.solve()
 
         return np.asarray(weights.value).flatten()
 
@@ -517,4 +518,3 @@ def test_optimal_holdings_strict_factor_get_obj(cl):
     print('')
 
     assert_output(solve_problem, fn_inputs, fn_correct_outputs, check_parameter_changes=False)
-
