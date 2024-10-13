@@ -264,8 +264,16 @@ def test_mean_reversion_5day_sector_neutral(fn):
 
     # Build engine
     trading_calendar = get_calendar('NYSE')
-    bundle_data = bundles.load(project_helper.EOD_BUNDLE_NAME)
-    engine = project_helper.build_pipeline_engine(bundle_data, trading_calendar)
+    register(
+        'yahoo_NYSE',
+        yahoo_NYSE.yahoo_NYSE(
+            tframes=["daily"],
+            csvdir="/home/ankit/AI_for_trading/Data/data/eod-quotemedia/"
+            )
+        )
+
+    bundle_data = bundles.load('yahoo_NYSE')
+    engine = project4_helper.build_pipeline_engine(bundle_data, trading_calendar)
 
     # Build pipeline
     universe_window_length = 2
@@ -280,7 +288,7 @@ def test_mean_reversion_5day_sector_neutral(fn):
     fn_inputs = {
         'window_length': 3,
         'universe': universe,
-        'sector': project_helper.Sector()}
+        'sector': project4_helper.Sector()}
     fn_correct_outputs = OrderedDict([
         (
             'pipline_out', pd.DataFrame(
@@ -298,7 +306,7 @@ def test_mean_reversion_5day_sector_neutral(fn):
     print('> factor = {}('.format(fn.__name__))
     print('    window_length={},'.format(fn_inputs['window_length']))
     print('    universe=universe,')
-    print('    sector=project_helper.Sector())')
+    print('    sector=project4_helper.Sector())')
     print('> pipeline.add(factor, \'{}\')'.format(column_name))
     print('> engine.run_pipeline(pipeline, start_dat, end_date)')
     print('')
@@ -315,8 +323,8 @@ def test_mean_reversion_5day_sector_neutral_smoothed(fn):
 
     # Build engine
     trading_calendar = get_calendar('NYSE')
-    bundle_data = bundles.load(project_helper.EOD_BUNDLE_NAME)
-    engine = project_helper.build_pipeline_engine(bundle_data, trading_calendar)
+    bundle_data = bundles.load(project4_helper.EOD_BUNDLE_NAME)
+    engine = project4_helper.build_pipeline_engine(bundle_data, trading_calendar)
 
     # Build pipeline
     universe_window_length = 2
@@ -331,7 +339,7 @@ def test_mean_reversion_5day_sector_neutral_smoothed(fn):
     fn_inputs = {
         'window_length': 3,
         'universe': universe,
-        'sector': project_helper.Sector()}
+        'sector': project4_helper.Sector()}
     fn_correct_outputs = OrderedDict([
         (
             'pipline_out', pd.DataFrame(
@@ -349,7 +357,7 @@ def test_mean_reversion_5day_sector_neutral_smoothed(fn):
     print('> factor = {}('.format(fn.__name__))
     print('    window_length={},'.format(fn_inputs['window_length']))
     print('    universe=universe,')
-    print('    sector=project_helper.Sector())')
+    print('    sector=project4_helper.Sector())')
     print('> pipeline.add(factor, \'{}\')'.format(column_name))
     print('> engine.run_pipeline(pipeline, start_dat, end_date)')
     print('')
@@ -471,7 +479,7 @@ def test_optimal_holdings_regualization_get_obj(cl):
         constaints = [sum(weights) == 0.0, sum(cvx.abs(weights)) <= 1.0]
         obj = optimal_holdings_regualization._get_obj(weights, alpha_vector)
         prob = cvx.Problem(obj, constaints)
-        prob.solve(max_iters=500)
+        prob.solve()
 
         return np.asarray(weights.value).flatten()
 
@@ -505,7 +513,7 @@ def test_optimal_holdings_strict_factor_get_obj(cl):
         constaints = [sum(weights) == 0.0, sum(cvx.abs(weights)) <= 1.0]
         obj = optimal_holdings_strict_factor._get_obj(weights, alpha_vector)
         prob = cvx.Problem(obj, constaints)
-        prob.solve(max_iters=500)
+        prob.solve()
 
         return np.asarray(weights.value).flatten()
 
