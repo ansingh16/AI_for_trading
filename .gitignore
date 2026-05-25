@@ -3,3 +3,6 @@ eod-quotemedia.csv
 Data/top_200_companies.csv
 Data
 Practice/ta-lib
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
